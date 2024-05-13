@@ -1,0 +1,202 @@
+body{
+    top: 0;
+    contain: content;
+    min-height: 700px;
+}
+
+.MainPage{
+    display: flex;
+    min-height: 700px;
+    max-height: auto;
+}
+
+.MainPageSection1{
+    width: 60%;
+    align-items: center;
+    z-index: 1;
+}
+
+.MainPageSection1div1{
+    width: 100%;
+    height: 10%;
+}
+
+.MainPageSection1div2{
+    contain: content;
+    width: 100%;
+    min-width: 700px;
+    height: 75%;
+    align-content: center;
+    align-items: center;
+}
+
+.MainPageSection1div21{
+    width: 85%;
+    height: 85%;
+    border: solid 10px white;
+    border-radius: 230px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
+
+.MainPageSection1div21 img{
+    position: absolute;
+    top: 2.5%;
+    margin-left: 18%;
+    margin-right: 25%;
+    width: 50%;
+}
+
+.MainPageSection1div211{
+    width: 90%;
+    height: 85%;
+    border-radius: 200px;
+    background-color: #b1c6ba;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
+
+.MainPageSection1div2111{
+    width: 90%;
+    height: 85%;
+    border: solid 7px white;
+    border-radius: 170px;
+    background-color: #b1c6ba;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    text-align: center;
+}
+
+.MainPageSection1div2111 div{
+    width: 80%;
+    height: 90%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    text-align: center;
+}
+
+
+.MainPageSection1div3{
+    width: 100%;
+    height: 15%;
+}
+
+.MainPageSection2{
+    width: 40%;
+}
+
+.Backimage1{
+    position: absolute;
+    width: 55%;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+}
+
+
+.Backimage2{
+    position: absolute;
+    max-height: 800px;
+    max-width: 600px;
+    width: 35%;
+    bottom: 0%;
+    right: 10%;
+    z-index: 0;
+}
+
+/*
+.main{
+    min-width: 1000px;
+    border: solid black;
+    display: flex;
+}
+
+.imagemsobre{
+    width: auto;
+    border: solid black;
+}
+
+.imagemsobre img{
+    min-width: 500px;
+    width: 100%;
+}
+
+
+.MainPage{
+    border: solid 10px white;
+    border-radius: 350px;
+    margin-left: 2%; /* dar margem ao index de 10% da esquerda*/
+/*    margin-right: 2%; /* dar margem ao index de 10% da direita*/
+/*    margin-top: 20px; /*distancia do teto*/
+/*    margin-bottom: auto; /*distancia da base*/
+/*    text-align: center;
+    width: 900px; /* largura do indice */
+/*    height: 600px;
+    min-width: 900px;
+    align-content: center;
+}
+
+.MainPage section{
+    background-color: #b1c6ba;
+    border-radius: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    width: 92%; 
+    height: 90%;
+    align-content: center;
+}
+
+.MainPage section section{
+    position: relative;
+    top: 0;
+    border: solid 10px white;
+    background-color: #b1c6ba;
+    border-radius: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    width: 90%; 
+    height: 85%;
+    align-content: center;
+}
+
+.MainPage img{
+    position: relative;
+    top: -150px;
+    width: 80%;
+}
+
+.textosobre{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -15%;
+    margin-bottom: auto;
+    text-align: justify;
+    width: 80%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.MainPage{
+    border: solid black;
+}
+
+section{
+    border: black solid;
+}*/
