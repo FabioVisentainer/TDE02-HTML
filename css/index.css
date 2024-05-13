@@ -1,0 +1,62 @@
+/* Configuração do body"*/
+body{
+    margin: 0;
+    background-color: #f6f6f6;
+    min-width: 600px;
+    max-width: auto;
+    min-height: 800px;
+}
+
+.MainPage{
+    min-width: 600px;
+    min-height: 800px;
+    max-width: auto;
+}
+
+footer{
+    background-color: #a9cec3;
+    min-width: 600px;
+}
+
+/* Configuração dos botões do index"*/
+.Index{
+    z-index: 3;
+    top: 0;
+    position: sticky; /* fixa na tela */
+    display: flex; /* colocar cada caixinha de index lado a lado*/
+    height: 60px; /* altura da tira do index*/
+    width: 100%;
+    justify-content: space-between ;
+}
+
+/* Configuração das caixinhas do index (inicio, serviços...)*/
+.IndexBox{ 
+    /* border-radius: 20px; */
+    border-bottom-left-radius:  20px;
+    border-bottom-right-radius: 20px;
+    background-color: #d3e1d6f8;
+    height: 100%; /*altura automática da caixa*/
+    width: 15%; /*largura 10%*/
+    box-sizing: border-box;
+}
+
+.IndexBox div:hover {
+    transform: scale(2);
+}
+
+.IndexBox div{
+    transition: transform 500ms;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+    color: #84a877; /*cor do texto*/
+    font-size: 50%; /*tamanho do texto*/
+    text-align: center; /*alinhar os textos ao centro*/
+    text-transform: uppercase; /*texto sempre em letras maiusculas*/
+    text-decoration:underline; /*sublinhar o texto*/
+    box-sizing: border-box;
+}
+
+.IndexBox div h2 a{
+    color: #84a877; /*cor do texto*/
+}
