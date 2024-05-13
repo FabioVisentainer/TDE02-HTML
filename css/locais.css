@@ -1,0 +1,279 @@
+body{
+    top: 0;
+    contain: content;
+    min-width: 1000px;
+}
+
+.MainPage{
+    display: flex;
+    min-height: 800px;
+    max-height: auto;
+
+}
+
+.MainPageSection1{
+    width: 70%;
+    display: block;
+    align-items: center;
+    z-index: 2;
+}
+
+.s1d1{
+    width: 100%;
+    height: 20%;
+    align-content: center;
+}
+
+.s1d1 img{
+    width: 60%;
+    margin-left: 5%;
+    margin-right: auto;
+}
+
+.s1d2{
+    height: 60%;
+    width: 100%;
+    align-content: center;
+}
+
+.s1d21{
+    height: 90%;
+    width: 90%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    border: solid 10px #d3e1d6;
+    background-color: #d3e1d6;
+    border-radius: 150px;
+}
+.s1d211{
+    height: 90%;
+    width: 95%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    border: solid 5px white;
+    border-radius: 130px;
+}
+.s1d2111{
+    height: 90%;
+    width: 95%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    border: solid 5px white;
+    border-radius: 120px;
+    display: flex;
+}
+
+.imglocais{
+    align-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.imglocais img{
+    width: 50%;
+    left: 0;
+    margin-left: 25%;
+    margin-right: auto;
+}
+
+.textoslocais{
+    width: 60%;
+    align-content: center;
+}
+
+.textoslocais h2{
+    text-align: left;
+    text-transform:uppercase;
+}
+
+.textoslocais a{
+    color: #84a877;
+    font-family:sans-serif;
+    font-size: auto;
+    text-align: left;
+    text-decoration: dashed;
+    text-transform:uppercase;
+}
+
+
+.s1d3{
+    height: 20%;
+}
+
+.MainPageSection2{
+    width: 30%;
+    z-index: 1;
+}
+
+.Section2Top{
+    width: 100%;
+}
+.Section2Top img{
+    width: 100%;
+}
+
+
+.Section2Body{
+    display: block;
+    align-items: center;
+    align-content: center;
+    border: solid 2px ;
+    border-color: #A3B595;
+    background-color: #C8A38A;
+    width: 100%;
+    z-index: 1;
+}
+
+.Section2Body div{
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.Section2Body div div{
+    width: 30%;
+    background-color: white;
+}
+
+.Section2Body div div img{
+    width: 100%;
+}
+
+.Section2Bottom{
+    width: 100%;
+}
+
+.Section2Bottom img{
+    width: 100%;
+    z-index: 1;
+}
+
+
+.Backimage1{
+    position: absolute;
+    width: 55%;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+
+
+
+/*
+.MainPage{
+    display: flex;
+}
+
+.locaisdeatendimento{
+    min-width: 900px;
+    display: block;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: auto;
+    text-align: center;
+    align-content: center;
+}
+
+.locaisdeatendimento img{
+    width: 50%;
+}
+
+
+.planosaceitos{
+    min-width: 400px;
+    z-index: 1;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: auto;
+    text-align: center;
+    align-content: center;
+}
+
+.planosaceitos img{
+    width: 80%;
+}
+
+.textos{
+    border: solid 10px #d3e1d6;
+    background-color: #d3e1d6;
+    border-radius: 120px;
+    margin-left: auto; /* dar margem ao index de 10% da esquerda*/
+/*    margin-right: auto; /* dar margem ao index de 10% da direita*/
+/*    margin-top: 20px; /*distancia do teto*/
+/*    margin-bottom: auto; /*distancia da base*/
+/*    text-align: center;
+    width: 800px; /* largura do indice */
+/*    height: 400px;
+    align-content: center;
+}
+
+.textos section{
+    border: solid 5px #f6f6f6;
+    border-radius: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    width: 95%; 
+    height: 90%;
+    align-content: center;
+}
+
+.textos section section{
+    display: flex;
+    border: solid 5px #f6f6f6;
+    background-color: #d3e1d6;
+    position: relative;
+    top: 0;
+    border-radius: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    width: 95%; 
+    height: 90%;
+    align-content: center;
+    align-items: center;
+}
+
+.imglocais{
+    width: 25%;
+}
+
+.imglocais img{
+    width: 100%;
+    left: 0;
+}
+
+.textoslocais h2{
+    text-align: left;
+    text-transform:uppercase;
+}
+
+.textoslocais a{
+    color: #84a877;
+    font-family:sans-serif;
+    font-size: 25px;
+    text-align: left;
+    text-decoration: dashed;
+    text-transform:uppercase;
+}*/
