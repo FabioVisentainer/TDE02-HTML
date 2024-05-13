@@ -1,0 +1,39 @@
+body{
+    top: 0;
+    background-image:  url("../Imagens/Curvas.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-width: 1200px;
+
+}
+
+.MainPage{
+    min-width: 1200px;
+    display: block;
+}
+
+.MainPage div img{
+    width: 30%;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.publicacoes{
+    display: block;
+}
+
+.publicacoes div{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: auto;
+}
+
+.publicacoes div div{
+    background-color: #ede3d7;
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+}
